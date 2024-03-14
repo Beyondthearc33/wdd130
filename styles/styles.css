@@ -40,12 +40,13 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 760px;
-    left: 76px;
+    top: 130px;
+    left: 60px;
 }
 
 aside img {
