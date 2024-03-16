@@ -46,7 +46,7 @@ main {
 
 article {
     text-align: left;
-    position: abosolute;
+    position: absolute;
 }
 
 main img {
@@ -89,7 +89,7 @@ div h1 {
     left: 45px;
 }
 
-.hero article img {
+.hero article img {  
     float: right;
     bottom: 8px;
     right: 18px;
