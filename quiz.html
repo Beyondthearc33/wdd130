@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <H1>Quiz Form</H1>
+        </header>
+<main>
+    <form>
+        <fieldset>
+            <legend>Question One</legend>
+            <label for="q1">What does IOS stand for?</label>
+            <input name="q1" id="q1" type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Question Two</legend>
+            <label for="q2">List reasons why you are Pro or Con Apple:</label>
+            <textarea name="q2" id="q2" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Question Three</legend>
+            <label for="q3">Apple holds an event every spring called WWDC, what does the acronym WWDC stand for?</label>
+            <select id="q3" name="q3">
+                <option value="WWDC1">World Wide Database Consortium</option>
+                <option value="WWDC2">Worldwide Developers Conference</option>
+                <option value="WWDC3">Web Widget Development Camp</option>
+                <option value="WWDC4">World Wide Design Conference</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Question Four</legend>
+            <label for="q4">What iteration of the Silicon M chip for Mac and Ipad is apple on currently?</label>
+            <input type="number">
+        </fieldset>
+        <button type="button" onclick="alert('Submitted, Thank You!')">Submit</button>
+        
+    </form>
+</main>
+    </body>
+</html>

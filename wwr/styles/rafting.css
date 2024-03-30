@@ -16,8 +16,10 @@
 }
 
 h1 {
-    position: absolute;    
-    color: steelblue;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    color: #AAAE8E;
 }
 header {
     padding: 20px;
@@ -31,10 +33,11 @@ header nav a {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
@@ -57,20 +60,10 @@ article img {
     float: right;
 }
 
-div h1 {
-    position: absolute;
-    top: 300px;
-    left: 400px;
-}
-
 /* Class Selectors */
-.hero div{
+.hero {
     position: relative;
     
-}
-
-.hero h1 {
-    color: #AAAE8E;
 }
 
 .hero p {
@@ -83,7 +76,7 @@ div h1 {
     height: auto;
 }
 
-.hero article p {
+.hero article {
     position: absolute;
     top: 400px;
     left: 45px;
@@ -93,6 +86,7 @@ div h1 {
     float: right;
     bottom: 8px;
     right: 18px;
+    width: 200px;
 }
 
 .sociallinks nav {
