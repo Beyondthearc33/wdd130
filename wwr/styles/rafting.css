@@ -21,9 +21,16 @@ h1 {
     left: 400px;
     color: #AAAE8E;
 }
+
 header {
+    margin: 1rem auto;
     padding: 20px;
+    grid-template-columns: 120px 1fr 2fr;
+    border-bottom: 1px solid #ccc;
     background-color: var(--accent2-color);
+    display: grid;
+    max-width: 1000px;
+    align-items: center;
 }
 
 header nav a {
@@ -38,13 +45,18 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
+nav {
+ text-align: right;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     }
 
 main {
-    max-width: 840px;
+    max-width: 1000px;
+    text-align: center;
 }
 
 article {
@@ -60,10 +72,24 @@ article img {
     float: right;
 }
 
+h2 {
+text-align: center;
+}
+
+footer img {
+    max-width: 50px;
+    margin: 30px
+}
+
+footer p {
+    text-align: center;
+}
+
+
+
 /* Class Selectors */
 .hero {
-    position: relative;
-    
+    position: relative;   
 }
 
 .hero p {
@@ -93,4 +119,47 @@ article img {
     text-decoration: none;
 }
 
+.navigation {
+    position: absolute;
+    left: 500px;
+    display: flex;
+    list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--primary-color);
+    display: block;
+    font-weight: 800;
+    font-size: larger;
+    flex: 1 1 100%;
+    padding: 40px;
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+.right p {
+    text-align: right;
+}
+.container {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h2 {
+    position: absolute;
+    text-align: center;
+    left: 23rem;
+    top: 114rem;
+}
+
+section img {
+    margin: 0 10px;
+}
 
