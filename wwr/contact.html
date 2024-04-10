@@ -13,54 +13,61 @@
         <header>
             <img class="logo" src="images/logo.jpg" alt="River Riders Logo">
             <nav class="navigation">
-                <a href="site-plan-rafting.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About Us</a>
                 <a href="trips.html">Trips</a>
                 <a href="contact.html">Contact Us</a>
             </nav>
         </header>
         <main>
-            <h2>Address: Unnamed Road, Moab, UT 87445</h3>
-            <h2>Phone Number: 451-555-2354</h2>
-            <h2>Email: reception@riverriders.com</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8636.477099437809!2d-109.4183111007458!3d38.69447467437776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747dd1adf7384af%3A0xc559b1898f422376!2sRocky%20Rapid%20Landing!5e0!3m2!1sen!2sus!4v1712447868606!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                
-            <div>
+            <div class="map">
+                <aside>
+                    <br>
+                    <p class="addressTitle">Address Information</p>
+                    <p>Address: Unnamed Road, Moab, UT 87445</p>
+                    <p>Phone Number: 451-555-2354</p>
+                    <p>Email: reception@riverriders.com</p>
+                </aside>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8636.477099437809!2d-109.4183111007458!3d38.69447467437776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8747dd1adf7384af%3A0xc559b1898f422376!2sRocky%20Rapid%20Landing!5e0!3m2!1sen!2sus!4v1712447868606!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+                <div class="employee">
+                    <p>Meet Our Team</p>
+                </div>
+            <div class="contact_img">
                 <figure>
                     <img src="images/employeeOne.jpeg" alt="Happy Employee">
+                    <figcaption>Danny Fuego - CEO</figcaption>
                 </figure>
-                <figcaption>Danny Fuego - CEO</figcaption>
                 <figure>
                     <img src="images/employeeTwo.jpeg" alt="Hapyy Employee">
+                    <figcaption>Donna Flem - Marketing</figcaption>
                 </figure>
-                <figcaption>Donna Flem - Marketing</figcaption>
                 <figure>
                     <img src="images/employeeThree.jpeg" alt="Happy Employee">
+                    <figcaption>Yevin Stein - River Expert</figcaption>
                 </figure>
-                <figcaption>Yevin Stein - River Expert</figcaption>
             </div>
-
 
             <form>
                 <fieldset>
-                    <label for="userName"> User's Name:</label>
+                    <label for="userName">Name</label>
                     <input name="userName" id="userName" type="text">
                 </fieldset>
 
                 <fieldset>
-                    <label for="userEmail">Email Address:</label>
+                    <label for="userEmail">Email Address</label>
                     <input type="text" name="userEmail" id="userEmail">
                 </fieldset>
                 
                 <fieldset>
-                    <label for="purpose">Message Purpose:</label>
+                    <label for="purpose">Message:</label>
 
-                    <label for="generalInquiry">General Inquiry</label>
                     <input type="radio" name="generalInquiry" id="generalInquiry">
-                    <label for="reservationQuestion">Reservation Question</label>
+                    <label for="generalInquiry">General Inquiry</label>
                     <input type="radio" name="reservationQuestion" id="reservationQuestion">
-                    <label for="websiteSuggestion">Website Suggestion</label>
+                    <label for="reservationQuestion">Reservation Question</label>
                     <input type="radio" name="websiteSuggestion" id="websiteSuggestion">
+                    <label for="websiteSuggestion">Website Suggestion</label>
                 </fieldset>
 
                 <fieldset>

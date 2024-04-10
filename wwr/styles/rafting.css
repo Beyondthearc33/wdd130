@@ -25,11 +25,11 @@ h1 {
 header {
     margin: 1rem auto;
     padding: 20px;
-    grid-template-columns: 120px 1fr 2fr;
+    grid-template-columns: 200px auto;
     border-bottom: 1px solid #ccc;
     background-color: var(--accent2-color);
     display: grid;
-    max-width: 1000px;
+    width: 1000px;
     align-items: center;
 }
 
@@ -55,8 +55,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 main {
-    max-width: 1000px;
+    width: 1000px;
     text-align: center;
+    margin: 0 auto;
+    background-color: #d0d4d4;
 }
 
 article {
@@ -64,9 +66,7 @@ article {
     position: absolute;
 }
 
-main img {
-    float: right;
-}
+
 
 article img {
     float: right;
@@ -74,6 +74,19 @@ article img {
 
 h2 {
 text-align: center;
+}
+
+iframe {
+   margin: 20px;
+}
+
+footer {
+    margin: 1rem auto;
+    grid-template-columns: 200px auto;
+    border-bottom: 1px solid #ccc;
+    background-color: var(--accent2-color);
+    width: 1000px;
+    align-items: center;
 }
 
 footer img {
@@ -84,6 +97,11 @@ footer img {
 footer p {
     text-align: center;
 }
+
+section img {
+    margin: 0 10px;
+}
+
 
 
 
@@ -107,6 +125,9 @@ footer p {
     top: 400px;
     left: 45px;
 }
+.employee p {
+    font-size: large;
+}
 
 .hero article img {  
     float: right;
@@ -120,7 +141,7 @@ footer p {
 }
 
 .navigation {
-    position: absolute;
+    /* position: absolute; */
     left: 500px;
     display: flex;
     list-style: none;
@@ -145,6 +166,7 @@ footer p {
 .right p {
     text-align: right;
 }
+
 .container {
     display: grid;
     grid-template-columns: 15% 15% 15% 15% 15%;
@@ -159,7 +181,74 @@ footer p {
     top: 114rem;
 }
 
-section img {
-    margin: 0 10px;
+.contact_img {
+    display: flex;
+    justify-content: center;
 }
 
+.map {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map p {
+ padding: 20px;
+ font-size: larger;
+ font-weight: bold;
+ margin: auto;
+ text-align: left;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form */
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    background-color: rgba(174, 163, 163, 0.22);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: .5rem;
+    border: .5px solid rgba(142, 134, 134, 0.536);
+    padding: 1rem;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 2rem;
+    background-color: rgb(95, 89, 87);
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+a.button {
+    padding: 5px 6px;
+    border: 5px outset buttonborder;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
