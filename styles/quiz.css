@@ -117,3 +117,14 @@ table.cinereousTable {
   .table {
     align-content: center;
   }
+
+
+  #radioButtonFieldset {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radioButtonOption{
+    display: flex;
+    align-items: center;
+  }

@@ -60,28 +60,46 @@
                     <input type="text" name="userEmail" id="userEmail">
                 </fieldset>
             
-                <fieldset>
-                    <label for="message">Message purpose:</label>
-                    <input type="radio" name="purpose" id="generalInquiry">
-                    <label for="generalInquiry">General Inquiry</label>
-                    <input type="radio" name="purpose" id="reservationQuestion">
-                    <label for="reservationQuestion">Reservation Question</label>
-                    <input type="radio" name="purpose" id="websiteSuggestion">
-                    <label for="websiteSuggestion">Website Suggestion</label>
+
+
+                
+                <fieldset class="buttonFieldset">
+                    <label>Message purpose:</label>
+                    <div class="radioButtonOption">
+                        <input type="radio" name="purpose" id="generalInquiry">
+                        <label for="generalInquiry">General Inquiry</label>
+                    </div>
+        
+                    <div class="radioButtonOption">
+                        <input type="radio" name="purpose" id="reservationQuestion">
+                        <label for="reservationQuestion">Reservation Question</label>
+                        
+                    </div>
+                    <div class="radioButtonOption">
+                        <input type="radio" name="purpose" id="websiteSuggestion">
+                        <label for="websiteSuggestion">Website Suggestion</label>
+                    </div>
                 </fieldset>
+
+
+
+
+
 
                 <fieldset>
                     <label for="message">Enter your message here:</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </fieldset>
 
-                <fieldset>
-                    <input type="checkbox" id="subscribeCheckbox">
-                    <label for="subscribeCheckbox"> Please subscribe me to the monthly newsletter</label>
+                <fieldset class="buttonFieldset">
+                    <div class="radioButtonOption">
+                        <input type="checkbox" id="subscribeCheckbox">
+                        <label for="subscribeCheckbox"> Please subscribe me to the monthly newsletter</label>
+                    </div>
                 </fieldset>
 
                 <fieldset>
-                    <button type="submit" onclick="alert('Submitted, Thank You!')">Start Your Adventure</button>
+                    <button id="submitButton" type="submit" onclick="alert('Submitted, Thank You!')">Start Your Adventure</button>
                 </fieldset>
             </form>
         </main>
